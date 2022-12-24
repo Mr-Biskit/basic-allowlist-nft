@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# BiskitBunch NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Welcome to the BiskitBunch NFT project! This NFT grants access to various projects that the BiskitBunch team is building in the web3 space. The BiskitBunch is a community for creators who are learning and innovating in the world of decentralized technology.
 
-Try running some of the following tasks:
+To manage access to our projects, I have implemented an on-chain allowlist using the Alchemy documentation as a guide. This allowlist is stored on the blockchain and allows me to easily manage who has access to our projects.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+In order to store the metadata for our NFTs, I have chosen to use nft_storage. This service stores the metadata in two ways: on dedicated IPFS servers managed by them and decentralised on Filecoin. I believe that this combination of centralized and decentralized storage provides the best balance of reliability and security for our NFTs.
+
+Thank you for your interest in the BiskitBunch NFT. I hope that you will join us in our journey to learn and innovate in the world of decentralized technology.
+
+
+
+
